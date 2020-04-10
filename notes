@@ -1,0 +1,17 @@
+string = tf.Variable([[3,2],[4,1]],tf.int16)
+string1 = tf.reshape(string,[1,-1])
+reshape changes dimension above code puts everything into 1 list -1 denotes that it calculates how many should go there
+t = tf.ones([5,5,5])
+t  = tf.reshape(t,[1,-1])
+
+silence
+from silence_tensorflow import silence_tensorflow
+silence_tensorflow()
+
+
+
+linear regression
+given x predict y data point
+scalable to higher dimensions
+data needs to be corelated
+could draw line of best fit
